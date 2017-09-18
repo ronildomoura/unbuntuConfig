@@ -34,7 +34,7 @@ echo 'export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"' >> ~/.bashrc
 curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3*.sh -b
 rm Miniconda3*.sh
-echo 'export PATH="$HOME/miniconda3//bin:\$PATH"' >> ~/.bash_profile
+echo 'export PATH="$HOME/miniconda3/bin:$PATH"' >> ~/.bashrc
 #echo -e '\n# Miniconda3\nexport PATH="$HOME/miniconda3/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
