@@ -32,11 +32,15 @@ echo 'export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"' >> ~/.bashrc
 
 #get the latest conda 
 curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-#bash Miniconda3*.sh -b
-#rm Miniconda3*.sh
-
+bash Miniconda3*.sh -b
+rm Miniconda3*.sh
+echo 'export PATH="$HOME/miniconda3//bin:\$PATH"' >> ~/.bash_profile
 #echo -e '\n# Miniconda3\nexport PATH="$HOME/miniconda3/bin:$PATH"' >> ~/.bashrc
-#source ~/.bashrc
+source ~/.bashrc
+
+
+#config conda
+conda config --append channels conda-forge
 
 echo 'Conda installed! Go in the projects and creat virtual env for yml projects'
 
