@@ -13,6 +13,4 @@ git clone https://github.com/ronildomoura/unbuntuConfig.git
 
 cd unbuntuConfig
 
-sudo chmod +x systemConfig.sh
-
 echo 'Run other scripts in main directory ....'
