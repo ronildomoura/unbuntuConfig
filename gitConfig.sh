@@ -9,6 +9,6 @@ git config --global credential.helper store
 
 
 #clone the config repo
-
+git clone https://github.com/ronildomoura/unbuntuConfig.git
 
 echo 'Run other Shell config sripts now ...'
