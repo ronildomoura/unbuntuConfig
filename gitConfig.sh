@@ -11,4 +11,8 @@ git config --global credential.helper store
 #clone the config repo
 git clone https://github.com/ronildomoura/unbuntuConfig.git
 
+cd unbuntuConfig
+
+sudo chmod +x systemConfig.sh
+
 echo 'Run other scripts in main directory ....'
